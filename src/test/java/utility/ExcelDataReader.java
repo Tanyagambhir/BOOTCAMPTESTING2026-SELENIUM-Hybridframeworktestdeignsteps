@@ -7,7 +7,7 @@ import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 public class ExcelDataReader {
 	XSSFWorkbook wb;
 	public  ExcelDataReader()  {
-		File src = new File(".TestData/LOGINHRM.xlsx");
+		File src = new File("./TestData/LOGINHRM.xlsx");
 		try {
 			FileInputStream fis = new FileInputStream(src);
 			wb  = new XSSFWorkbook(fis);
